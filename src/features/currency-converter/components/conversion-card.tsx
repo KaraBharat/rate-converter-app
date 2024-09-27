@@ -16,11 +16,8 @@ import ConversionResultSkeleton from "./conversion-result-skeleton";
 import useRateConversation from "../hooks/use-rate-conversation";
 import { ArrowUpDown } from "lucide-react";
 
-interface CurrencyConverterCardProps {}
 
-export const CurrencyConverterCard: React.FC<
-  CurrencyConverterCardProps
-> = () => {
+export const CurrencyConverterCard: React.FC = () => {
   // Available currencies
   const currencies = [
     { code: "USD", symbol: "$", name: "US Dollar" },
