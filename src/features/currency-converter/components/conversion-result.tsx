@@ -26,7 +26,7 @@ const ConversionResult = ({
         </p>
         <div className="flex items-center justify-center space-x-2">
           <p className="text-2xl font-semibold text-indigo-800">
-            {amount} <span className="text-indigo-600">{fromCurrency}</span>
+            {amount} <span className="text-indigo-800">{fromCurrency}</span>
           </p>
         </div>
         <p className="text-4xl font-bold tracking-tight text-purple-600">
